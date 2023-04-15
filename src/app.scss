@@ -1,0 +1,52 @@
+.main{
+    background-color: #f1f1f1;
+    height: 32rem;
+    max-width: 28rem;
+    border-radius: 15px;
+    margin: auto;
+
+    padding : 2rem 0 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 35px;
+    padding-right: 25px;
+
+    .title {
+        font-size: 40px;
+        text-align: center;
+        margin: 0 auto 2rem;
+    }
+    
+    .instructions {
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        margin: 0 auto 5rem;
+        text-align: center;
+    }
+
+    .container{
+        display: grid;
+        gap : 1.5rem;
+        grid-template: auto auto / repeat(5, 1fr);
+        justify-content: center;
+    }
+    .roll{
+        margin: 4rem auto 0;
+        background-color: #5035FF;
+        color: white;
+        font-family: 'karla';
+        border-radius: 0.3rem;
+        font-size: 1.4rem;
+        height: 2.8rem;
+        width: 8rem;
+        border: none;
+        cursor: pointer;
+    }
+    .roll:focus{
+        outline: auto;
+    }
+    .roll:active{
+        box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.5);
+    }
+}
